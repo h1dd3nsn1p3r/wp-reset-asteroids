@@ -12,18 +12,6 @@
  * @package    Wp_Reset_Asteroids
  * @subpackage Wp_Reset_Asteroids/includes
  */
-
-/**
- * Define the internationalization functionality.
- *
- * Loads and defines the internationalization files for this plugin
- * so that it is ready for translation.
- *
- * @since      1.0.0
- * @package    Wp_Reset_Asteroids
- * @subpackage Wp_Reset_Asteroids/includes
- * @author     Anuj Subedi <hello@anujsubedi.com.np>
- */
 class Wp_Reset_Asteroids_i18n {
 
 

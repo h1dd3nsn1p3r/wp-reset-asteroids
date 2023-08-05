@@ -32,12 +32,12 @@ if ( isset( $_GET['page'] ) && 'wp-reset-asteroids' === $_GET['page'] ) {
 
 			wp_localize_script(
 				$handle,
-				'WPRESETASTERIODSLOCOLIZER',
+				'WPResetAsteroidsLocalizer',
 				array(
-					'admin_url'      => admin_url( '/' ),
-					'ajax_url'       => admin_url( 'admin-ajax.php' ),
-					'site_url'       => site_url( '/' ),
-					'rest_namespace' => 'wp-reset-asteroids/v1',
+					'adminUrl'      => admin_url( '/' ),
+					'ajaxUrl'       => admin_url( 'admin-ajax.php' ),
+					'siteUrl'       => site_url( '/' ),
+					'restNamespace' => 'wp-reset-asteroids/v1',
 					'version' 		 => WP_RESET_ASTEROIDS_VERSION,
 				)
 			);

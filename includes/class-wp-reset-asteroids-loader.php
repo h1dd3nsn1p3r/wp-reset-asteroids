@@ -9,18 +9,6 @@
  * @package    Wp_Reset_Asteroids
  * @subpackage Wp_Reset_Asteroids/includes
  */
-
-/**
- * Register all actions and filters for the plugin.
- *
- * Maintain a list of all hooks that are registered throughout
- * the plugin, and register them with the WordPress API. Call the
- * run function to execute the list of actions and filters.
- *
- * @package    Wp_Reset_Asteroids
- * @subpackage Wp_Reset_Asteroids/includes
- * @author     Anuj Subedi <hello@anujsubedi.com.np>
- */
 class Wp_Reset_Asteroids_Loader {
 
 	/**

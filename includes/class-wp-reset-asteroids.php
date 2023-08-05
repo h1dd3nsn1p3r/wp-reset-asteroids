@@ -176,6 +176,7 @@ class Wp_Reset_Asteroids {
 	 * @return    string    The name of the plugin.
 	 */
 	public function get_plugin_name() {
+
 		return $this->plugin_name;
 	}
 
@@ -186,6 +187,7 @@ class Wp_Reset_Asteroids {
 	 * @return    Wp_Reset_Asteroids_Loader    Orchestrates the hooks of the plugin.
 	 */
 	public function get_loader() {
+
 		return $this->loader;
 	}
 
@@ -196,6 +198,7 @@ class Wp_Reset_Asteroids {
 	 * @return    string    The version number of the plugin.
 	 */
 	public function get_version() {
+		
 		return $this->version;
 	}
 
